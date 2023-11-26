@@ -1,0 +1,654 @@
+@font-face {
+    font-family: Poppins-regular;
+    src: url(../project/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-bold;
+    src: url(../project/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Jost-regular;
+    src: url(../project/fonts/Jost/Jost-Regular.ttf);
+}
+
+@font-face {
+    font-family: Jost-bold;
+    src: url(../project/fonts/Jost/Jost-Bold.ttf);
+}
+
+html {
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #686565;
+    font-family: Poppins-regular;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.front-part {
+    margin-top: 180px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: first baseline;
+    margin-top: 45px;
+    width: 1440px;
+}
+
+.menu-container {
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins-bold;
+}
+
+.menu-item {
+    font-family: Poppins-regular;
+    list-style-type: none;
+    color: #686565;
+}
+
+.logo {
+    font-size: 2rem;
+    font-family: Poppins-bold;
+    font-weight: 700;
+    line-height: 2rem;
+    color: #0E0578;
+}
+
+.front-part-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1440px;
+    height: 910px;
+    background-color: #FFFFFF;
+}
+
+.left-side-front {
+    display: flex;
+    flex-direction: column;
+
+}
+
+ .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-top: 110px;
+ }
+
+.front-part-subtitle {
+    font-family: Poppins-regular;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2000E7;
+}
+
+.front-part-title {
+    font-family: Poppins-bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2000E7;
+    width: 447px;
+    height: 144px;
+    top: 368px;
+    left: 78px;
+}
+
+span {
+    color: #F2BD00;
+}
+
+.front-part-text {
+    font-family: Poppins-regular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #383838;
+    width: 616px;
+    height: 72px;
+    top: 533px;
+    left: 77px;
+}
+
+.front-part-blue-button {
+    width: 246px;
+    height: 72px;
+    top: 716px;
+    left: 77px;
+    border-radius: 10px;
+    background: #2000E7;
+    box-shadow: 11px 21px 15px 6px #00000040;
+    font-family: Poppins-regular;
+    margin-right: 100px ;
+}
+
+
+.text {
+    font-family: Poppins-regular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #2000E7;
+    color: #FFFFFF;
+}
+
+.front-part-transparent-button {
+    width: 246px;
+    height: 72px;
+    top: 716px;
+    left: 402px;
+    border-radius: 10px;
+    border: 2px;
+    background-color: #2000E70A;
+    color: #2000E7;
+    box-shadow: 11px 21px 15px 6px #00000040;
+    border: 2px solid #2000E7;
+}
+
+.front-part-image {
+    width: 564px;
+    height: 564px;
+    top: 340px;
+    left: 772px;
+    border-radius: 0 0 0 191px;
+}
+
+.container-about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 1440px;
+    height: 910px;
+    top: 1066px;
+    background-color: #43BAFD0F;
+}
+
+.right-side {
+    display: flex;
+    width: 925px;
+    height: 910px;
+    top: 1051px;
+    left: 540.24px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.blue-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 246px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2000E7;
+    box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25); 
+}
+
+.button-font {
+    color: #FFF;
+    font-family: Poppins-regular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+h3 {
+    font-family: Poppins-bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0.35em;
+    text-align: left;
+    color: #2000E7;
+    margin-bottom: 14px;
+}
+
+.text-aboutMe {
+    font-family: Poppins-regular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 415px;
+    height: 303px;
+    top: 1358px;
+    left: 46px;
+}
+
+.empty-block {
+    height: 250px;
+    background-color:#FFF;
+    width: 1440px;
+    margin-bottom: 1px;
+}
+
+.empty-block2 {
+    height: 301px;
+    background-color:#FFF;
+    width: 1440px;
+}
+
+.title-my-projects {
+    font-family: Poppins-bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0.35em;
+    text-align: center;
+    color: #2000E7;
+    margin-top: 0px; 
+    padding-top: 35px;
+}
+
+.text-my-projects {
+    font-family: Poppins-regular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    margin-bottom: 46px;
+    margin-top: 0px;
+}
+
+.container-my-projects {
+    background-color: #FFD69633;
+    width: 1440px;
+    height: 910px;
+    top: 2277px;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 46px;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 46px;
+}
+
+.third-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container-contact-me {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 1316px;
+    top: 3459px;
+    background-color: #43BAFD0F;
+}
+
+.title-contact-me {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-conteiner-contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side-contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 66px;
+}
+
+.img-contact-me {
+    margin-left:-132px;
+    margin-top: -90px;
+}
+
+.email {
+    width: 653px;
+    height: 94px;
+    top: 3827px;
+    left: 66px;
+    box-shadow: 13px 21px 4px 0px #00000040;
+    background: #FFFFFF;
+    margin-top: 100px;
+}
+
+.text-email {
+    font-family: Poppins-regular;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    margin-left: 55px;
+    margin-top: 17px;
+    padding-top: 30px;
+    text-align: left;      
+}
+
+.password {
+    width: 653px;
+    height: 94px;
+    top: 4002px;
+    left: 66px;
+    box-shadow: 13px 21px 4px 0px #00000040;
+    background: #FFFFFF;
+    margin-top: 81px;    
+}
+
+.message {
+    width: 653px;
+    height: 265px;
+    top: 4177px;
+    left: 66px;
+    box-shadow: 13px 21px 4px 0px #00000040;
+    background: #FFFFFF; 
+    margin-top: 81px;
+}
+
+.button-contact-me {
+    width: 327px;
+    height: 94px;
+    top: 4491px;
+    left: 230px;
+    box-shadow: 13px 21px 4px 0px #00000040;
+    background: #FFFFFF; 
+    border: none;
+    margin-top: 50px;
+    margin-left: 164px;
+}
+
+.text-contact {
+    font-family: Poppins-regular;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+}
+
+.sandColor2 {
+    position: absolute;
+    width: 1440px;
+    height: 809px;
+    top: 4983px;
+    margin: 0;
+    background-color: #FFD69633;
+  }
+  
+  .uniDesign2 {
+    position: absolute;
+    width: 386px;
+    height: 72px;
+    top: 5115px;
+    left: 73px;
+    margin: 0;
+    font-family: Poppins-bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0.35em;
+    text-align: left;
+    color: #0E0578;
+  }
+  
+  .platform {
+    position: absolute;
+    width: 157px;
+    height: 47px;
+    top: 5120px;
+    left: 570px;
+    margin: 0;
+    font-family: Jost-bold;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .help {
+    position: absolute;
+    width: 90px;
+    height: 47px;
+    top: 5120px;
+    left: 834px;
+    margin: 0;
+    font-family: Jost-bold;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .contact {
+    position: absolute;
+    width: 142px;
+    height: 47px;
+    top: 5120px;
+    left: 1124px;
+    margin: 0;
+    font-family: Jost-bold;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  
+  #EmailFooter {
+    position: absolute;
+    width: 323px;
+    height: 97px;
+    top: 5237px;
+    left: 26px;
+    margin: 0;
+    border: none;
+    border-radius: 30px;
+    background: #000000;
+    font-family: Jost-bold;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 33px;
+  }
+  
+  .SubscribeButton {
+    position: absolute;
+    width: 178px;
+    height: 99px;
+    top: 5237px;
+    left: 288px;
+    margin: 0;
+    border: none;
+    border-radius: 30px;
+    background: #F965FC;
+    cursor: pointer;
+  }
+  
+  .subscribeText {
+    position: absolute;
+    font-family: Jost-bold;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .footerPlatform {
+    position: absolute;
+    width: 160px;
+    height: 366px;
+    top: 5151px;
+    left: 570px;
+    padding-top: 40px;
+    margin: 0;
+    font-family: Jost-regular;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .footerHelp {
+    position: absolute;
+    width: 305px;
+    height: 366px;
+    top: 5150px;
+    left: 834px;
+    padding-top: 40px;
+    margin: 0;
+    font-family: Jost-regular;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .footerContact {
+    position: absolute;
+    width: 316px;
+    height: 47px;
+    top: 5184px;
+    left: 1124px;
+    margin: 0;
+    font-family: Jost-regular;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .footerContactAdress {
+    position: absolute;
+    width: 311px;
+    height: 188px;
+    top: 5251px;
+    left: 1128px;
+    margin: 0;
+    font-family: Jost-regular;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  
+  hr {
+    position: absolute;
+    width: 1334px;
+    top: 5600px;
+    left: 53px;
+    margin: 0;
+    border: 3px;
+    background: #000000;
+    border: 3px solid #000000
+  }
+  
+  .rights {
+    position: absolute;
+    width: 639px;
+    height: 46px;
+    top: 5696px;
+    left: 46px;
+    margin: 0;
+    font-family: Jost-regular;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .youtube {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    top: 5706px;
+    left: 977px;
+  }
+  
+  .instagram {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    top: 5679px;
+    left: 1101px;
+  }
+  
+  .facebook {
+    position: absolute;
+    width: 18.68px;
+    height: 34.5px;
+    top: 5699.25px;
+    left: 1247.16px;
+  }
+  
+  .linkedin {
+    position:absolute;
+    width: 71px;
+    height: 71px;
+    top: 5684px;
+    left: 1343px;
+  }
